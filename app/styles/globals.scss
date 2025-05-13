@@ -1,0 +1,120 @@
+@use './variables' as vars;
+@import "tailwindcss";
+
+:root {
+  --background: #201f1f;
+  --foreground: #ededed;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+section,
+.page {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: radial-gradient(circle, rgb(35 39 43) 0%, rgb(28, 26, 28) 100%);
+}
+
+h2, h3, h4 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grey-gradient-bg {
+  background: radial-gradient(circle, rgb(28 28 28) 0%, rgb(0, 0, 0) 100%);
+}
+
+.main-img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.main-text {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.link {
+  text-decoration: none;
+  color: vars.$primary;
+  font-weight: 500;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+  }
+}
+
+.width-limiter {
+  max-width: 1800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 639px) {
+  :root {
+    font-size: 13px;
+  }
+
+  section {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+//ipad pro 1024
+  :root {
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1500px) {
+  :root {
+    font-size: 15px;
+  }
+}
