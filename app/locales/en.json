@@ -1,0 +1,156 @@
+{
+  "lang": "en",
+  "navbar": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "home": {
+    "headline1": "Full-Stack Development.",
+    "headline2": "From Interface to API.",
+    "intro": "Since 2019, I’ve been building modern, scalable, and user-focused web applications — from React interfaces to the services that stand behind them.",
+    "callToAction1": "Let’s Work Together",
+    "callToAction2": "More About Me",
+    "about": "I’m an informatics engineer and web developer with 7+ years of experience — from graphic design to production-ready code. React and TypeScript are my core stack, and I combine creativity with technical expertise to deliver complete, well-crafted digital products. Right now I’m working on a large-scale recruitment platform, where I build AI-powered product features, real-time functionality, and product analytics & experimentation — primarily on the React frontend, and increasingly on the .NET services behind it — while also supporting the UI/UX process. In my own projects I build the whole stack myself, with Node.js, Express and Sequelize over PostgreSQL and MySQL. I’m looking for a full-stack role where I can grow and build meaningful projects.",
+    "technologiesIntro": "Technologies, Tools & Skills",
+    "projs": "Projects",
+    "projDesc1": "Below is a selection of projects I've developed — both commercial and personal. Click More to read about the project in detail and access a live demo, if available.",
+    "languagesAndFrameworks": "Languages & Frameworks",
+    "fAndB": "Frontend & Backend Development",
+    "uiAndStyling": "UI Libraries & Styling",
+    "buildTools": "Build Tools & Testing",
+    "databasesAndOrm": "Databases & ORM",
+    "productAnalytics": "Product Analytics & Experimentation",
+    "designAndCreative": "Design And Creative",
+    "graphicDesignAndUIPrinciples": "Graphic Design, UI/UX Principles",
+    "oop": "Object-Oriented Programming (OOP)",
+    "designPatterns": "Design Patterns",
+    "dev": "Development Skills",
+    "architecture": "Application Architecture, Microfrontends & BFF",
+    "cleanCode": "Clean Code & Good Practices",
+    "aiAssisted": "AI-assisted & agentic development (Claude Code)",
+    "lang": "Languages",
+    "pl": "Polish (Native)",
+    "en": "English (Advanced)"
+  },
+  "projects": {
+    "title": "Projects",
+    "progress": "Progress",
+    "challenges": "Challenges",
+    "demoHostingDisclaimer": "Please keep in mind that I use free hosting services, which may cause delayed loading of the hosted application — sometimes you might have to wait up to a minute before the service becomes available. This does not reflect the quality of the project; with commercial hosting, it would work normally.",
+    "prevProject": "Previous Project",
+    "nextProject": "Next Project",
+    "more": "More",
+    "stepstoneApply": {
+      "title": "StepStone Apply",
+      "desc": "StepStone Apply — the job-application platform behind one of Europe's largest job marketplaces, serving millions of users. A modern, high-traffic frontend built with React and Next.js, running on a microservices and Backend-for-Frontend (BFF) architecture of .NET services backed by PostgreSQL.",
+      "descLong": "I develop complex product features with a focus on performance, usability, and maintainability, managing server and client state with TanStack Query and Redux, integrating real-time functionality via WebSockets, and safeguarding quality with unit tests (Vitest) and end-to-end tests (Playwright). My highlight contribution is AI Talent Assessment — an AI-powered feature that generates qualification questions tailored to each job offer, streamed to candidates in real time and integrated into selected application flows, helping employers better evaluate candidate skills. I also work with Amplitude for product analytics and experimentation, and implement web analytics tracking with Tealium and Adobe Analytics based on specifications from our analytics team. Alongside the frontend work I also take on back-end tasks in the .NET BFF and microservices — extending API endpoints and data contracts, and working with the PostgreSQL-backed persistence behind them — which lets me follow a feature through the whole stack rather than stopping at the API boundary. I work closely with backend engineers, product managers, designers, and analysts, integrate the frontend with backend services and APIs, and use Claude Code as part of my daily workflow — including AI-assisted development workflows that integrate Claude Code with Playwright for automated end-to-end verification — while contributing to code reviews and the continuous improvement of our frontend practices.",
+      "role": "My role: Software Engineer — frontend-focused, with back-end feature work",
+      "challengesTitle": "",
+      "challenges": [
+        "Building scalable, responsive interfaces in a high-traffic environment serving millions of users",
+        "Delivering complex product features within a microservices and Backend-for-Frontend (BFF) architecture",
+        "Managing server-state and client-state with TanStack Query and Redux",
+        "Integrating real-time functionality with WebSockets to power AI-driven product features",
+        "Delivering AI Talent Assessment — AI-generated, job-tailored qualification questions woven into selected application flows",
+        "Implementing product analytics and experimentation with Amplitude, and web analytics tracking with Tealium and Adobe Analytics",
+        "Ensuring quality through unit testing (Vitest) and end-to-end testing (Playwright)",
+        "Designing AI-assisted development workflows that integrate Claude Code with Playwright for automated end-to-end verification",
+        "Integrating the frontend with numerous backend services and APIs",
+        "Taking on back-end tasks in .NET services — API endpoints, data contracts and PostgreSQL persistence — alongside the React frontend",
+        "Collaborating with backend engineers, product managers, designers, analysts, and other stakeholders"
+      ]
+    },
+    "fakturownia": {
+      "title": "Fakturownia/Invoice Ocean",
+      "desc": "The most popular invoicing software in Poland, trusted by over 600 000 businesses.",
+      "descLong": "I worked on modernising and unifying an interface with a long development history, and on designing and implementing new features across a large legacy codebase.",
+      "role": "My role: UI/UX design, front-end feature implementation",
+      "challengesTitle": "",
+      "challenges": [
+        "Getting up to speed with a large, legacy codebase",
+        "Thorough modernization of the UI and unification of an interface with a long development history",
+        "Navigating a hybrid architecture: building front-end views in Ruby on Rails while developing new features in React",
+        "Balancing old and new technologies to ensure smooth integration"
+      ]
+    },
+    "onlineAccounting": {
+      "title": "Online Accounting",
+      "desc": "An accounting module for Fakturownia, also designed to work as a standalone application integrated with KSeF. Tailored for sole proprietors.",
+      "descLong": "The product is now publicly available — self-service online accounting that guides users through their PIT, VAT, and ZUS settlements and JPK submissions, with clear deadlines and reminders.",
+      "role": "My role: primarily front-end development, early-stage involvement in UI/UX design (before a dedicated designer joined)",
+      "challengesTitle": "",
+      "challenges": [
+        "Displaying and processing multiple types of data in single views",
+        "Designing a user-friendly interface for people unfamiliar with accounting concepts",
+        "Supporting a wide variety of user needs",
+        "Maintaining UI/UX consistency with Fakturownia, which was also undergoing a redesign",
+        "Managing a broad scope of responsibilities—from partial UI design to front-end technical details",
+        "Coordinating work effectively between the Księgosoft team and the evolving Fakturownia project"
+      ]
+    },
+    "boutique": {
+      "title": "Boutique",
+      "desc": "An e-commerce website for a fictional women’s clothing brand, featuring product categories, filtering, guest checkout, and Stripe payments. Emphasis on smooth UX and secure, scalable architecture with SEO in mind.",
+      "descLong": "I built it as a deep dive into Next.js and server-side rendering — data fetching and caching strategies, the App Router, and SEO — on top of a Node.js, Express and Sequelize API with a MySQL database that I designed and implemented myself.",
+      "role": "My role: design, front-end, back-end",
+      "challengesTitle": "Project Challenges & Progress",
+      "progress": [
+        "Browse product catalog",
+        "Guest checkout",
+        "Place orders",
+        "Stripe payments",
+        "Login & registration",
+        "Role-based permissions (customers/admins)",
+        "Product management",
+        "Order management",
+        "Automated tests"
+      ],
+      "challenges": [
+        "Efficiently managing numerous products and categories",
+        "Visually appealing and user-friendly product presentation",
+        "Fully responsive design",
+        "Planning for future admin features such as product/category/collection management",
+        "Securely collecting and handling order and payment data",
+        "High-performance state management",
+        "Optimizing the app for SEO with server-side rendering (SSR)"
+      ]
+    },
+    "thisPortfolio": {
+      "title": "This Portfolio",
+      "desc": "Personal portfolio built end to end — a bilingual Next.js App Router frontend with a server-side contact pipeline behind it.",
+      "descLong": "Locale routing is resolved in middleware, styling combines SCSS modules with Tailwind, and the contact form runs through a Next.js API route with zod validation and Resend for delivery. Designed, built and deployed by me.",
+      "role": "My role: design, front-end, back-end",
+      "challengesTitle": "",
+      "challenges": []
+    },
+    "website": "Website"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "intro": "Have a question, a project idea, or just want to say hello? Fill in the form below and I’ll get back to you as soon as possible. You can also reach me on LinkedIn.",
+    "resume": "Resume",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone number",
+    "message": "Message",
+    "send": "Send",
+    "formFail1": "Oops! Something went wrong. Please try again later or contact me by",
+    "formFail2": "my LinkedIn profile.",
+    "formSuccess": "Thank you! Your message has been sent successfully. I will get back to you as soon as possible.",
+    "sending": "Sending...",
+    "nameTooShort": "Name is too short",
+    "invalidPhone": "Invalid phone number",
+    "messageTooShort": "Message should be at least 10 characters long",
+    "invalidEmail": "Invalid email",
+    "noEmail": "Email is required",
+    "thanks": "Thank you! Your message has been sent successfully. I will get back to you as soon as possible.",
+    "oops1": "Oops! Something went wrong. Please try again later or contact me by",
+    "oops2": "my LinkedIn profile",
+    "introResume": " My resume is available to download as well."
+  },
+  "footer": {
+    "allRights": "All rights reserverd"
+  }
+}

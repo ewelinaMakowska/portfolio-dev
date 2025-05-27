@@ -1,0 +1,156 @@
+{
+  "lang": "pl",
+  "navbar": {
+    "skills": "Umiejętności",
+    "projects": "Projekty",
+    "contact": "Kontakt",
+    "resume": "CV"
+  },
+  "home": {
+    "headline1": "Rozwój full-stack.",
+    "headline2": "Od interfejsu po API.",
+    "intro": "Od 2019 roku tworzę nowoczesne, skalowalne i zorientowane na użytkownika aplikacje webowe — od interfejsów w React po usługi backendowe, które za nimi stoją.",
+    "callToAction1": "Porozmawiajmy",
+    "callToAction2": "Więcej o mnie",
+    "about": "Jestem inżynierką informatyki i web deweloperką z ponad 7-letnim doświadczeniem — od projektowania graficznego po gotowy kod produkcyjny. React i TypeScript to mój główny stack, a kreatywność łączę z wiedzą techniczną, żeby dostarczać kompletne i dopracowane produkty cyfrowe. Obecnie pracuję przy dużej platformie rekrutacyjnej, gdzie tworzę funkcje produktowe oparte na AI, funkcjonalności real-time oraz analitykę produktową i eksperymentację — przede wszystkim po stronie frontendu w React, a coraz częściej także w usługach .NET, które za nim stoją — wspierając przy tym proces UI/UX. We własnych projektach buduję cały stack samodzielnie, w Node.js, Express i Sequelize na PostgreSQL i MySQL. Szukam roli full-stackowej, w której mogłabym się rozwijać i tworzyć wartościowe projekty.",
+    "technologiesIntro": "Technologie, narzędzia i umiejętności",
+    "projs": "Projekty",
+    "projDesc1": "Poniżej znajduje się wybór projektów, które stworzyłam — zarówno komercyjnych, jak i prywatnych. Kliknij „Więcej”, aby zobaczyć szczegóły i dostęp do demo, jeśli mogę je udostępnić.",
+    "fAndB": "Rozwój front-end i back-end",
+    "languagesAndFrameworks": "Języki i frameworki",
+    "uiAndStyling": "Biblioteki UI i stylowanie",
+    "buildTools": "Narzędzia budujące i testy",
+    "databasesAndOrm": "Bazy danych i ORM",
+    "productAnalytics": "Analityka produktowa i eksperymentacja",
+    "designAndCreative": "Projektowanie i kreatywność",
+    "graphicDesignAndUIPrinciples": "Projektowanie graficzne, zasady UI/UX",
+    "oop": "Programowanie obiektowe (OOP)",
+    "designPatterns": "Wzorce projektowe",
+    "dev": "Umiejętności deweloperskie",
+    "architecture": "Architektura aplikacji, mikrofrontendy i BFF",
+    "cleanCode": "Czysty kod i dobre praktyki",
+    "aiAssisted": "Programowanie wspierane przez AI (Claude Code)",
+    "lang": "Języki",
+    "pl": "Polski (ojczysty)",
+    "en": "Angielski (zaawansowany)"
+  },
+  "projects": {
+    "title": "Projekty",
+    "progress": "Postępy",
+    "challenges": "Wyzwania",
+    "demoHostingDisclaimer": "Do projektów prywatnych korzystam z darmowych usług hostingowych, co może powodować opóźnienia w ładowaniu aplikacji — czasami może być konieczne oczekiwanie około minuty, zanim usługa stanie się dostępna. Nie odzwierciedla to jakości projektu; na komercyjnym hostingu działałoby to normalnie.",
+    "prevProject": "Poprzedni projekt",
+    "nextProject": "Następny projekt",
+    "more": "Więcej",
+    "stepstoneApply": {
+      "title": "StepStone Apply",
+      "desc": "StepStone Apply — platforma aplikowania na oferty pracy stojąca za jednym z największych serwisów rekrutacyjnych w Europie, obsługującym miliony użytkowników. Nowoczesny, wysokoobciążony frontend zbudowany w React i Next.js, działający na architekturze mikroserwisów i wzorcu Backend-for-Frontend (BFF), opartej na usługach .NET i bazie PostgreSQL.",
+      "descLong": "Rozwijam złożone funkcjonalności produktowe z naciskiem na wydajność, użyteczność i łatwość utrzymania, zarządzając stanem serwera i klienta za pomocą TanStack Query i Redux, integrując funkcjonalności real-time za pomocą WebSockets, oraz dbając o jakość dzięki testom jednostkowym (Vitest) i end-to-end (Playwright). Moim najważniejszym wkładem jest AI Talent Assessment — oparta na sztucznej inteligencji funkcja, która generuje pytania kwalifikacyjne dopasowane do konkretnej oferty pracy, przesyłane do kandydatów w czasie rzeczywistym i integruje je z wybranymi ścieżkami aplikowania, pomagając pracodawcom lepiej ocenić kompetencje kandydatów. Pracuję też z Amplitude przy analityce produktowej i eksperymentacji oraz wdrażam śledzenie zdarzeń analitycznych z Tealium i Adobe Analytics na podstawie specyfikacji zespołu analitycznego. Poza pracą nad frontendem biorę też na siebie zadania backendowe w usługach .NET (BFF i mikroserwisy) — rozszerzam endpointy API i kontrakty danych oraz pracuję z warstwą persystencji opartą na PostgreSQL — dzięki czemu mogę prowadzić funkcjonalność przez cały stack, a nie kończyć na granicy API. Ściśle współpracuję z inżynierami backendu, product managerami, projektantami i analitykami, integruję frontend z usługami i API backendu oraz korzystam z Claude Code w codziennej pracy — w tym z zaprojektowanych przez mnie workflow łączących Claude Code z Playwright do automatycznej weryfikacji end-to-end — a także biorę udział w code review i ciągłym doskonaleniu naszych praktyk frontendowych.",
+      "role": "Moja rola: Software Engineer — głównie frontend, z zadaniami backendowymi",
+      "challengesTitle": "",
+      "challenges": [
+        "Budowanie skalowalnych, responsywnych interfejsów w środowisku o dużym ruchu, obsługującym miliony użytkowników",
+        "Dostarczanie złożonych funkcjonalności w architekturze mikroserwisów i Backend-for-Frontend (BFF)",
+        "Zarządzanie stanem serwera i klienta z użyciem TanStack Query i Redux",
+        "Integracja funkcjonalności real-time z WebSockets na potrzeby funkcji opartych na AI",
+        "Dostarczenie AI Talent Assessment — generowanych przez AI, dopasowanych do oferty pytań kwalifikacyjnych wplecionych w wybrane ścieżki aplikowania",
+        "Wdrażanie analityki produktowej i eksperymentacji z Amplitude oraz śledzenia zdarzeń z Tealium i Adobe Analytics",
+        "Zapewnianie jakości poprzez testy jednostkowe (Vitest) i end-to-end (Playwright)",
+        "Projektowanie workflow wspieranych przez AI, łączących Claude Code z Playwright do automatycznej weryfikacji end-to-end",
+        "Integracja frontendu z licznymi usługami i API backendu",
+        "Zadania backendowe w usługach .NET — endpointy API, kontrakty danych i persystencja w PostgreSQL — obok pracy nad frontendem w React",
+        "Współpraca z inżynierami backendu, product managerami, projektantami, analitykami i innymi interesariuszami"
+      ]
+    },
+    "fakturownia": {
+      "title": "Fakturownia",
+      "desc": "Najpopularniejsze oprogramowanie do fakturowania w Polsce, zaufane przez ponad 600 000 firm.",
+      "descLong": "Pracowałam nad modernizacją i ujednoliceniem interfejsu o długiej historii rozwoju oraz nad projektowaniem i wdrażaniem nowych funkcjonalności w dużym, wieloletnim kodzie.",
+      "role": "Moja rola: projektowanie UI/UX, implementacja funkcjonalności front-endowych",
+      "challengesTitle": "",
+      "challenges": [
+        "Szybkie wdrożenie w dużym, wieloletnim projekcie legacy",
+        "Dogłębna modernizacja UI i ujednolicenie interfejsu o bogatej historii rozwoju",
+        "Poruszanie się po architekturze hybrydowej: widoki front-endowe w Ruby on Rails i nowe funkcje w React",
+        "Sprawne łączenie starych i nowych technologii"
+      ]
+    },
+    "onlineAccounting": {
+      "title": "Księgowość Online",
+      "desc": "Moduł księgowy dla Fakturowni, zaprojektowany również jako samodzielna aplikacja z integracją KSeF. Skierowany do jednoosobowych działalności gospodarczych.",
+      "descLong": "Produkt jest już publicznie dostępny — samodzielna księgowość online, która prowadzi użytkownika przez rozliczenia PIT, VAT i ZUS oraz wysyłkę JPK, z czytelnymi terminami i przypomnieniami.",
+      "role": "Moja rola: głównie rozwój front-endu, wczesny udział w projektowaniu UI/UX (przed dołączeniem dedykowanej projektantki)",
+      "challengesTitle": "",
+      "challenges": [
+        "Wyświetlanie i przetwarzanie wielu typów danych w jednym widoku",
+        "Tworzenie intuicyjnego interfejsu dla osób bez doświadczenia księgowego",
+        "Wsparcie różnorodnych potrzeb użytkowników",
+        "Spójność UI/UX z Fakturownią, która również była w trakcie redesignu",
+        "Szeroki zakres odpowiedzialności – od UI po szczegóły techniczne front-endu",
+        "Efektywna współpraca zespołu Księgosoft z rozwijającym się projektem Fakturownia"
+      ]
+    },
+    "boutique": {
+      "title": "Belle & Co",
+      "desc": "Sklep internetowy dla fikcyjnej marki odzieży damskiej, zawierający kategorie produktów, filtrowanie, zakupy bez rejestracji i płatności Stripe. Projekt z naciskiem na UX, bezpieczeństwo i skalowalność z myślą o SEO.",
+      "descLong": "Zbudowałam go jako świadome zgłębienie Next.js i renderowania po stronie serwera — strategii pobierania i cache’owania danych, App Routera oraz SEO — na własnym API w Node.js, Express i Sequelize, z bazą MySQL, którą sama zaprojektowałam i wdrożyłam.",
+      "role": "Moja rola: projektowanie, front-end, back-end",
+      "challengesTitle": "Wyzwania i postępy",
+      "progress": [
+        "Przeglądanie katalogu produktów",
+        "Zakupy bez rejestracji",
+        "Składanie zamówień",
+        "Płatności Stripe",
+        "Logowanie i rejestracja",
+        "Uprawnienia na podstawie roli (klient/admin)",
+        "Zarządzanie produktami",
+        "Zarządzanie zamówieniami",
+        "Testy automatyczne"
+      ],
+      "challenges": [
+        "Efektywne zarządzanie dużą liczbą produktów i kategorii",
+        "Estetyczna i intuicyjna prezentacja produktów",
+        "Pełna responsywność interfejsu",
+        "Planowanie przyszłych funkcji admina (zarządzanie kategoriami, kolekcjami itd.)",
+        "Bezpieczne zbieranie i przetwarzanie danych zamówień i płatności",
+        "Wydajne zarządzanie stanem aplikacji",
+        "Optymalizacja pod SEO z wykorzystaniem SSR"
+      ]
+    },
+    "thisPortfolio": {
+      "title": "To Portfolio",
+      "desc": "Osobista strona portfolio zbudowana od początku do końca — dwujęzyczny frontend na Next.js App Router z obsługą kontaktu po stronie serwera.",
+      "descLong": "Routing językowy rozwiązywany jest w middleware, stylowanie łączy moduły SCSS z Tailwindem, a formularz kontaktowy działa przez Next.js API route z walidacją zod i wysyłką przez Resend. Zaprojektowane, zbudowane i wdrożone przeze mnie.",
+      "role": "Moja rola: projektowanie, front-end, back-end",
+      "challengesTitle": "",
+      "challenges": []
+    },
+    "website": "Strona"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Masz pytanie, pomysł na projekt lub po prostu chcesz się przywitać? Wypełnij formularz, a odpowiem tak szybko, jak to możliwe. Możesz też napisać do mnie na LinkedIn.",
+    "resume": "CV",
+    "name": "Imię",
+    "email": "E-mail",
+    "phone": "Numer telefonu",
+    "message": "Wiadomość",
+    "send": "Wyślij",
+    "formFail1": "Ups! Coś poszło nie tak. Spróbuj ponownie później lub skontaktuj się przez",
+    "formFail2": "mój profil LinkedIn.",
+    "formSuccess": "Dziękuję! Wiadomość została pomyślnie wysłana. Odezwę się najszybciej jak to możliwe.",
+    "sending": "Wysyłanie...",
+    "nameTooShort": "Imię jest za krótkie",
+    "invalidPhone": "Nieprawidłowy numer",
+    "messageTooShort": "Wiadomość powinna mieć przynajmniej 10 znaków",
+    "invalidEmail": "Nieprawidłowy e-mail",
+    "noEmail": "Email jest wymagany",
+    "thanks": "Dzięki! Twoja wiadomość została wysłana. Wkrótce się z Tobą skontaktuję.",
+    "oops1": "Ups! Coś poszło nie tak... Spróbuj ponownie później lub skontaktuj się ze mną przez",
+    "oops2": "mój profil na LinkedIn",
+    "introResume": " Możesz również pobrać moje CV."
+  },
+  "footer": {
+    "allRights": "Wszelkie prawa zastrzeżone"
+  }
+}
