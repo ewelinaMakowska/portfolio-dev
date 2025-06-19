@@ -1,0 +1,52 @@
+@use '../../styles/variables' as vars;
+
+.about-me {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: vars.$darker-bg;
+
+  p {
+    font-size: 1.4375rem;
+    line-height: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+.my-small-portrait {
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 216px;
+    margin-bottom: 45px;
+    background-color: vars.$primary;;
+  }
+}
+
+@media (min-width: 0) and (max-width: 896px) {
+  .my-small-portrait {
+    display: block;
+
+    &__wrapper {
+      display: block;
+    }
+  }
+}
+@media (min-width: 897px) {
+  .my-small-portrait {
+    display: none;
+
+    &__wrapper {
+      display: none;
+    }
+  }
+}

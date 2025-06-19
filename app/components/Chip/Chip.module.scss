@@ -1,0 +1,16 @@
+@use '../../styles/variables' as vars;
+
+.chip {
+  background: transparent;
+  border: 1px solid vars.$primary;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+  font-size: 12px;
+
+  &--large {
+    font-size: 1rem;
+  }
+}

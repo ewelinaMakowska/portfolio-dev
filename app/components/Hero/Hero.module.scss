@@ -1,0 +1,323 @@
+@use '../../styles/variables' as vars;
+
+.hero {
+  padding-top: 0;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  background-color: #003153;
+  background-image: radial-gradient(circle, rgb(53 56 59) 0%, rgb(28, 26, 28) 100%);
+  padding-bottom: 4.375rem;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}
+
+.stripe {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(253, 148, 29, 1) 0%, rgba(240, 164, 0, 1) 100%);
+  color: vars.$dark;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  width: 385px;
+  top: 8.125rem;
+  left: 0;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 20px;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+  }
+
+  svg {
+    height: 27px;
+    fill: vars.$dark;
+  }
+
+  p {
+    font-size: 1.375rem;
+    font-weight: bold;
+  }
+}
+
+.text {
+  &__wrapper {
+    max-width: 49.375rem;
+  }
+
+  font-size: 3.875rem;
+  margin-top: 19.375rem;
+  line-height: 4.8125rem;
+  font-weight: bold;
+
+  &--smaller {
+    font-size: 1.4375rem;
+    line-height: 2.5rem;
+    margin-top: 2.8125rem;
+  }
+}
+
+.cta {
+  background: linear-gradient(180deg, rgba(253, 148, 29, 1) 0%, rgba(240, 164, 0, 1) 100%);
+  border: 2px solid vars.$primary;
+  border-radius: 50px;
+  padding: 15px 35px;
+  color: vars.$dark;
+  font-size: 1.3125rem;
+  transition: all 0.3s;
+  min-width: 178px;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+  }
+
+  &--secondary {
+    background: transparent;
+    color: #ffffff;
+
+    &:hover {
+      background: linear-gradient(180deg, rgba(253, 148, 29, 1) 0%, rgba(240, 164, 0, 1) 100%);
+      color: vars.$dark;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+  }
+}
+
+.portrait {
+  margin-top: 13.4375rem;
+
+  &__wrapper {
+    min-width: 28.75rem;
+    overflow: hidden;
+    border-bottom-left-radius: 12.5rem;
+    border-bottom-right-radius: 12.5rem;
+    background: linear-gradient(180deg, rgba(253, 148, 29, 1) 0%, rgba(240, 164, 0, 1) 100%);
+  }
+}
+
+@media (min-width: 0) and (max-width: 896px) {
+   .hero {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 175px;
+
+    .text {
+      font-size: 36px;
+      line-height: 50px;
+      margin-top: 0;
+
+      &--smaller {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 13px;
+      }
+    }
+
+    .cta {
+      font-size: 1rem;
+      padding: 12px 30px;
+
+      &__wrapper {
+        gap: 1rem;
+        margin-top: 25px;
+      }
+    }
+
+    &__inner {
+      display: block;
+    }
+  }
+
+  .portrait {
+    display: none;
+  }
+
+  .stripe {
+    top: 75px;
+    width: 293px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 897px) { //special breakpoint for hero section - on 898px width my portrait appears
+   .hero {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 186px;
+
+    .text {
+      font-size: 36px;
+      line-height: 50px;
+      margin-top: 0;
+
+      &--smaller {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 13px;
+      }
+    }
+
+    .cta {
+      font-size: 1rem;
+      padding: 12px 30px;
+
+      &__wrapper {
+        gap: 1rem;
+        margin-top: 25px;
+      }
+    }
+
+    &__inner {
+      display: block;
+    }
+  }
+
+  .portrait {
+    display: none;
+  }
+
+  .stripe {
+    top: 96px;
+  }
+
+}
+
+@media (min-width: 898px) and (max-width: 1024px) {
+  //ipad pro 1024
+  .hero {
+    .text {
+      font-size: 42px;
+      margin-top: 17.375rem;
+      line-height: 54px;
+
+      &--smaller {
+        font-size: 19px;
+        line-height: 31px;
+        margin-top: 14px;
+      }
+    }
+  }
+
+ .cta {
+    margin-top: 0;
+    font-size: 16px;
+    width: 225px;
+
+    &__wrapper {
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 25px
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .stripe {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 385px;
+    top: 55px;
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .text {
+    &__wrapper {
+      max-width: 970px;
+    }
+
+    &--smaller {
+      font-size: 18px;
+      line-height: 30px;
+      margin-top: 18px;
+    }
+
+    font-size: 40px;
+    margin-top: 200px;
+    line-height: 45px;
+  }
+
+   .cta {
+    margin-top: 0;
+    font-size: 16px;
+    width: 225px;
+
+    &__wrapper {
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 25px
+    }
+  }
+
+  .portrait {
+    margin-top: 180px;
+
+    &__wrapper {
+      min-width: 375px;
+    }
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1500px) {
+  .stripe {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    //width: 300px;
+    width: 385px;
+    top: 90px;
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .text {
+    &__wrapper {
+      max-width: 550px;
+    }
+
+    &--smaller {
+      font-size: 18px;
+      line-height: 30px;
+      margin-top: 18px;
+    }
+
+    font-size: 50px;
+    margin-top: 230px;
+    line-height: 62px;
+  }
+
+  .cta {
+    margin-top: 33px;
+    font-size: 16px;
+  }
+
+  .portrait {
+    &__wrapper {
+      min-width: 420px;
+    }
+    margin-top: 4rem;
+  }
+}

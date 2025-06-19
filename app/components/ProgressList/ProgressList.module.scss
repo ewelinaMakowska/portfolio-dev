@@ -1,0 +1,25 @@
+@use '../../styles/variables' as vars;
+
+.list {
+  li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 7px;
+
+    .check {
+      fill: vars.$success;
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+
+     .x {
+      fill: vars.$error;
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+  }
+}

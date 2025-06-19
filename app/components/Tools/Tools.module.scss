@@ -1,0 +1,66 @@
+@use '../../styles//variables' as vars;
+
+.tools {
+  background: radial-gradient(circle, rgb(35 39 43) 0%, rgb(28, 26, 28) 100%);
+}
+
+.list {
+  margin-top: 3.75rem;
+  padding-bottom: 5.0rem;
+
+  &__item {
+    width: 23.75rem;
+    min-height: 18.125rem;
+    padding-top: 1.875rem;
+    padding-bottom: 3.0rem;
+    padding-left: 2.5625rem;
+    padding-right: 0.625rem;
+    background: rgba(200, 200, 200, 0.04);
+    transition: all 0.3s;
+
+    .icon {
+      fill: vars.$primary;
+      transition: all 0.3s;
+    }
+
+    .list__header, ul {
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      background-color: vars.$primary;
+      color: vars.$dark;
+
+      .icon {
+        fill: vars.$dark;
+      }
+
+      .list__header, ul {
+        transform: scale(1.05);
+      }
+    }
+
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 0.9375rem;
+    padding-top: 0.9375rem;
+    margin-bottom: 1.125rem;
+
+    p {
+      font-size: 1.25rem;
+    }
+  }
+
+  .subcategory__item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+  }
+}
