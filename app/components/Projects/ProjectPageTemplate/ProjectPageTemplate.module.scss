@@ -1,0 +1,62 @@
+@use '../../../styles/variables' as vars;
+
+.demo {
+  margin-bottom: 15px;
+
+  &:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  a {
+    transform: 0.3s;
+    font-weight: 700;
+    color: vars.$primary;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.boxes-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 50px;
+  flex-wrap: wrap;
+
+  .box {
+    h4 {
+      margin-bottom: 35px;
+    }
+
+    width: 600px;
+    min-height: 18.125rem;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: rgba(200, 200, 200, 0.04);
+    transition: all 0.3s;
+  }
+}
+
+@media (min-width: 0) and (max-width: 500px) {
+  .boxes-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+
+    .box {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+
+      ul {
+        li {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+}

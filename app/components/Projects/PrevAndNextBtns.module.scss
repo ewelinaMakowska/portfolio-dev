@@ -1,0 +1,34 @@
+@use '../../styles/variables' as vars;
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+  a {
+    color: vars.$primary;
+    transition: all 0.3s;
+    display: inline-block;
+
+    svg {
+      display: inline-block;
+    }
+
+    &:hover {
+      filter: brightness(120%);
+      cursor: pointer;
+    }
+  }
+
+  a:first-of-type {
+    svg {
+      margin-right: 7px;
+    }
+  }
+
+  a:last-of-type {
+    span {
+      margin-right: 7px;
+    }
+  }
+}
