@@ -1,0 +1,157 @@
+@use '../../styles/variables' as vars;
+
+.contact {
+  background: radial-gradient(circle, rgb(35 39 43) 0%, rgb(28, 26, 28) 100%);
+  padding-bottom: 90px;
+
+  h2 {
+    margin-bottom: 70px;
+  }
+}
+
+.text {
+  font-size: 20px;
+}
+
+.required-star {
+  color: vars.$error;
+  margin-left: 2px;
+}
+
+.error-text {
+  font-size: 13px;
+  color: vars.$error;
+}
+
+.text-links-outer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-links-wrapper {
+  max-width: 700px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 42px;
+}
+
+.links-wrapper {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  gap: 2.3rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  fill: #ffffff;
+  opacity: 0.6;
+  transition: all 0.3s;
+
+  img, svg {
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+form.contact-form {
+  max-width: 700px;
+
+  input {
+    background: rgba(200, 200, 200, 0.04);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  textarea {
+    background: rgba(200, 200, 200, 0.04);
+  }
+
+  button[type=submit] {
+    background-color: vars.$primary;
+    color: vars.$dark;
+    padding: 12px 41px;
+    border-radius: 55px;
+    margin-top: 20px;
+
+    &:hover {
+      cursor: pointer;
+      filter: brightness(120%);
+    }
+  }
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  p {
+    font-size: 1rem;
+  }
+
+  svg {
+    fill: vars.$primary;
+  }
+}
+
+.success-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  p {
+    font-size: 20px;
+    line-height: 42px;
+    color: vars.$success;
+    max-width: 70%;
+    text-align: center;
+  }
+}
+
+.error-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  p {
+    font-size: 20px;
+    line-height: 42px;
+    color: vars.$error;
+    max-width: 70%;
+    text-align: center;
+
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .contact {
+    h2 {
+      margin-bottom: 40px;
+    }
+  }
+  .text {
+    font-size: 19px;
+    line-height: 39px;
+    margin-top: 45px;
+  }
+}
