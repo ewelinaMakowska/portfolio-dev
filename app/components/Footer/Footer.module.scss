@@ -1,0 +1,54 @@
+@use '../../styles/variables' as vars;
+
+.footer {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  background: #29282c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    opacity: 0.6;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  fill: #ffffff;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 639px) {
+  .footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .link {
+    svg {
+      height: 20px;
+    }
+  }
+}
