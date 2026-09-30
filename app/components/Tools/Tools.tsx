@@ -29,7 +29,7 @@ export default function Tools ({ t }: any) {
       items: [
         { text:  "HTML, CSS, SCSS" },
         { text:  "JavaScript, TypeScript" },
-        { text:  "C#, .NET" },
+        { text:  "C#, .NET, ASP.NET Core" },
         { text:  "React, Next.js" },
         { text:  "Node.js, Express.js" },
         { text:  "Redux, TanStack Query" },
@@ -57,7 +57,7 @@ export default function Tools ({ t }: any) {
       icon: Database,
       items: [
         { text:  "PostgreSQL, MySQL, SQL" },
-        { text:  "Sequelize" },
+        { text:  "Sequelize, EF Core" },
       ]
     },
     {
