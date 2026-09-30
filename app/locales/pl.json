@@ -119,8 +119,8 @@
     },
     "thisPortfolio": {
       "title": "To Portfolio",
-      "desc": "Osobista strona portfolio zbudowana od początku do końca — dwujęzyczny frontend na Next.js App Router z obsługą kontaktu po stronie serwera.",
-      "descLong": "Routing językowy rozwiązywany jest w middleware, stylowanie łączy moduły SCSS z Tailwindem, a formularz kontaktowy działa przez Next.js API route z walidacją zod i wysyłką przez Resend. Zaprojektowane, zbudowane i wdrożone przeze mnie.",
+      "desc": "Osobista strona portfolio w Next.js i TypeScript — w wersji polskiej i angielskiej, z działającym formularzem kontaktowym.",
+      "descLong": "Przełączanie języków obsługuje middleware, stylowanie łączy moduły SCSS z Tailwindem, a formularz kontaktowy trafia do API route w Next.js, które waliduje dane przez zod i wysyła je mailem przez Resend. Zaprojektowane, zbudowane i wdrożone przeze mnie.",
       "role": "Moja rola: projektowanie, front-end, back-end",
       "challengesTitle": "",
       "challenges": []

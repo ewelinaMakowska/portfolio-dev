@@ -119,8 +119,8 @@
     },
     "thisPortfolio": {
       "title": "This Portfolio",
-      "desc": "Personal portfolio built end to end — a bilingual Next.js App Router frontend with a server-side contact pipeline behind it.",
-      "descLong": "Locale routing is resolved in middleware, styling combines SCSS modules with Tailwind, and the contact form runs through a Next.js API route with zod validation and Resend for delivery. Designed, built and deployed by me.",
+      "desc": "Personal portfolio built with Next.js and TypeScript — available in Polish and English, with a working contact form.",
+      "descLong": "Language switching is handled in middleware, styling combines SCSS modules with Tailwind, and the contact form is sent through a Next.js API route that validates the data with zod and delivers it by e-mail via Resend. Designed, built and deployed by me.",
       "role": "My role: design, front-end, back-end",
       "challengesTitle": "",
       "challenges": []

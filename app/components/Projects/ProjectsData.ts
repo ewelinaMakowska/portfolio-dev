@@ -100,7 +100,7 @@ export default function (t: any): Project[] {
       name: t.projects.thisPortfolio.title,
       role: t.projects.thisPortfolio.role,
       url: '/projects/this_portfolio',
-      imageUrl: '/this-portfolio.png',
+      imageUrl: `/this-portfolio-${t.lang}.png`,
       type: 'Personal',
       github: 'https://github.com/ewelinaMakowska/portfolio-dev',
       description: t.projects.thisPortfolio.desc,
