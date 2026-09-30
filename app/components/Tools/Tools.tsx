@@ -107,7 +107,7 @@ export default function Tools ({ t }: any) {
       <h2>{t.home.technologiesIntro}</h2>
 
       <div 
-        className={[styles['list'], 'grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 2xl:gap-x-14 gap-y-14 place-items-center'].join(' ')}
+        className={[styles['list'], 'grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 2xl:gap-x-14 gap-y-14 justify-items-center items-stretch lg:auto-rows-fr'].join(' ')}
       >
         {skills.map(obj => {
           return (
