@@ -1,0 +1,54 @@
+@use '../styles/variables' as vars;
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1.5rem;
+  background: vars.$lighter-bg;
+}
+
+.logo {
+  width: 7.5rem;
+  margin-bottom: 1rem;
+
+  path { fill: vars.$primary; }
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: vars.$primary;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  max-width: 40rem;
+}
+
+.text {
+  font-size: 1.0625rem;
+  font-weight: lighter;
+  line-height: 1.7;
+  max-width: 34rem;
+  opacity: 0.85;
+}
+
+.divider {
+  width: 3rem;
+  height: 2px;
+  background: vars.$primary;
+  opacity: 0.6;
+}
+
+@media (max-width: 639px) {
+  .heading { font-size: 1.75rem; }
+}
